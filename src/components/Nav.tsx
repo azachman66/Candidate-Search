@@ -1,20 +1,22 @@
+import { useNavigate } from 'react-router-dom';
+
 const Nav = () => {
-  // TODO: Add necessary code to display the navigation bar and link between the pages
+  const navigate = useNavigate();
   return (
   <>
     <div className="nav">
       <div className="nav-item">
-        <div className="nav-link">
+        <div className="nav-link" onClick={() => navigate('/')}>
           Home
         </div>
       </div>
       <div className="nav-item">
-        <div className="nav-link">
+        <div className="nav-link" onClick={() => navigate('/CandidateSearch')}>
           Candidate Search
         </div>
       </div>
       <div className="nav-item">
-        <div className="nav-link">
+        <div className="nav-link" onClick={() => navigate('/SavedCandidates')}>
           Saved Candidates
         </div>
       </div>
