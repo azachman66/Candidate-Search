@@ -7,6 +7,4 @@ interface Candidate {
     email: string,
     company: string,
     bio: string,
-}
-
-export default Candidate;
+};
