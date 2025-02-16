@@ -7,18 +7,15 @@ const Nav = () => {
     <div className="nav">
       <div className="nav-item">
         <div className="nav-link" onClick={() => navigate('/')}>
-        <div className="nav-link" onClick={() => navigate('/')}>
           Home
         </div>
       </div>
       <div className="nav-item">
         <div className="nav-link" onClick={() => navigate('/CandidateSearch')}>
-        <div className="nav-link" onClick={() => navigate('/CandidateSearch')}>
           Candidate Search
         </div>
       </div>
       <div className="nav-item">
-        <div className="nav-link" onClick={() => navigate('/SavedCandidates')}>
         <div className="nav-link" onClick={() => navigate('/SavedCandidates')}>
           Saved Candidates
         </div>
