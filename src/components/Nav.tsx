@@ -6,11 +6,6 @@ const Nav = () => {
   <>
     <div className="nav">
       <div className="nav-item">
-        <div className="nav-link" onClick={() => navigate('/')}>
-          Home
-        </div>
-      </div>
-      <div className="nav-item">
         <div className="nav-link" onClick={() => navigate('/CandidateSearch')}>
           Candidate Search
         </div>
